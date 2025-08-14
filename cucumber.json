@@ -1,0 +1,22 @@
+{
+    "default": {
+        "formateOptions": {
+            "colorsEnabled": true,
+            "snippetInterface": "async-await"
+        },
+        "paths": [
+            "tests/features/ScenarioOutline.feature"
+        ],
+        "publishQuiet": true,
+        "dryRun": false,
+        "require": [
+            "features/step_definitions/**/*.js",
+            "features/support/**/*.js",
+            "tests/steps/*.js"
+        ],
+        "format": [
+            "json:tests/reports/cucumber.json",
+            "html:tests/reports/cucumber-report.html"
+        ]
+    }   
+}

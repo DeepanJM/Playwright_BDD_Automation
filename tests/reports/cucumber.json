@@ -1,0 +1,113 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-for-mercury-newtours;login-with-valid-username-and-password-pass-value-in-examples",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Login with valid username and password pass value in examples",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "providing valid url",
+            "match": {
+              "location": "file:\\C:\\Training\\Playwright_BDD_Automation\\tests\\steps\\login.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3078278800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "providing valid username as \"mercury\" and password as \"mercury\"",
+            "match": {
+              "location": "file:\\C:\\Training\\Playwright_BDD_Automation\\tests\\steps\\login.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 37098400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "clicking the login button",
+            "match": {
+              "location": "file:\\C:\\Training\\Playwright_BDD_Automation\\tests\\steps\\login.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 883396500
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-for-mercury-newtours;login-with-valid-username-and-password-pass-value-in-examples",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Login with valid username and password pass value in examples",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "providing valid url",
+            "match": {
+              "location": "file:\\C:\\Training\\Playwright_BDD_Automation\\tests\\steps\\login.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2944496700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "providing valid username as \"mercury\" and password as \"mercury\"",
+            "match": {
+              "location": "file:\\C:\\Training\\Playwright_BDD_Automation\\tests\\steps\\login.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29542600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "clicking the login button",
+            "match": {
+              "location": "file:\\C:\\Training\\Playwright_BDD_Automation\\tests\\steps\\login.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 454899900
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-for-mercury-newtours",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login for mercury newtours",
+    "tags": [],
+    "uri": "tests\\features\\ScenarioOutline.feature"
+  }
+]
