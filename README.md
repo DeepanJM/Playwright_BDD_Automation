@@ -5,7 +5,7 @@ This project demonstrates the implementation of Cucumber (BDD) using Playwright 
 
 ## Project Structure
 ```
-Playwright_POM_Demo/
+PLAYWRIGHT_BDD_AUTOMATION
 ├── tests/
 │   └── features
 |           └── demo.feature
@@ -55,7 +55,7 @@ When('providing valid username as {string} and password as {string}', async func
 ```bash
 npm init playwright@latest
 ```
-2. Install playwright:
+2. Install Cucumber:
 ```bash
 npm i @cucumber/cucumber
 ```
@@ -70,7 +70,7 @@ npm run test tests/feature/login.feature
 ```bash
 npx playwright codegen
 ```
-4. Edit settings.json for Cucumber:
+5. Edit settings.json for Cucumber:
 ```bash
 ctrl + ,
 In the search bar type in 'cucumber'
@@ -102,4 +102,4 @@ Scroll down and click on 'Edit in settings.json'
 Tests are designed for the demo site: https://demo.guru99.com/test/newtours
 
 ## Resource
-Learning resource: https://www.youtube.com/watch?v=zlINGGtEwCk
+Training Video: https://www.youtube.com/watch?v=zlINGGtEwCk
